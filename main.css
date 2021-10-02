@@ -1,0 +1,252 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: black;
+}
+
+.container {
+    width: 1450px;
+    margin: 0 auto;
+}
+.clearfix{
+    clear: both;
+}
+
+
+.main-web{
+    max-height: 100px;
+    text-align: center;
+    font-size: 24px;
+    padding: 15px 0;
+	background-color: white; 
+    box-shadow: 0px 10px 10px 10px rgb(0 0 0 / 70%);
+	position: sticky;
+    top: 0;
+	left: 0;
+	width: 100%;
+    z-index: 5;
+}
+.main-web__link{
+    text-decoration: none;
+    padding: 10px 30px;
+    background-image: linear-gradient(to right, #2B0187, #BB01FD);
+    color: #17FCFF; 
+    border-radius: 15px;
+    cursor: pointer;   
+    position: relative;
+}
+.main-web__link:hover{
+    background-image: linear-gradient(to right, #BB01FD, #2B0187);
+}
+
+header{
+    margin-top: 10px;
+    height: 1000px;
+    background-image: url("./images/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    padding-top: 30px;
+    margin-left: 40px;
+}
+.nav-link{
+    color: white;
+    cursor: pointer;
+    font-size: 13px;
+    margin-left: 40px;
+    font-family: 'IBM Plex Mono', monospace;
+}
+.nav-btn{
+    background-color: #9400FF;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 200px;
+    border: none;
+    cursor: pointer;
+    margin-left: 350px;
+}
+.header{
+    margin-top: 140px;
+    margin-left: 100px;
+}
+.h-h1{
+    font-size: 16px;
+    color: white;
+}
+.h-p{
+    font-size: 48px;
+    line-height: 62px;
+    color: white;
+}
+.h-btn{
+    background: #9400FF;
+    border-radius: 200px;
+    border: none;
+    color: white;
+    padding: 15px 40px;
+    cursor: pointer;
+}
+.h-divs{
+    margin-top: 130px;
+}
+.h-info{
+    width: 23%;
+    height: 200px;
+    float: left;
+}
+.info-h1{
+    font-size: 15px;
+    line-height: 25px;
+    color: white;
+    font-weight: 400;
+}
+.info-p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.s1{
+    margin-top: 100px;
+}
+.s1-div1, .s1-div2{
+    width: 50%;
+    float: left;
+    height: 1000px;
+}
+.s1-div1{
+    padding: 348px 0 0 113px;
+}
+.s1-h1{
+    font-size: 48px;
+    color: white;
+}
+.s1-p{
+    font-size: 16px;
+    line-height: 30px;
+    color: white;
+    padding-left: 30px;
+}
+.s1-div2{
+    background-image: url("./images/s1-div2-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.s2{
+    margin: 0 113px 0 113px;
+}
+.s2-h1{
+    color: white;
+    font-size: 29px;
+    text-align: center;
+    font-weight: 300;
+}
+.icons1{
+    height: 1147px;
+    background-image: url("./images/icons1.png");
+}
+.icons2{
+    height: 240px;
+    background-image: url("./images/icons2.png");
+}
+
+.s3{
+    color: white;
+    text-align: center;
+    margin-left: 160px;
+    width: 75%;
+}
+.links-1, .links-2, .links-3, .links-4, .links-5, .links-6{
+    width: 20%;
+    float: left;
+}
+.s3-h1{
+    color: #999999;
+    font-size: 15px;
+    line-height: 25px;
+}
+.s3-link{
+    display: block;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.s4{
+    margin-top: 200px;
+}
+.s4-div1, .s4-div2{
+    width: 50%;
+    float: left;
+}
+.s4-div1{
+    background-image: url("./images/s4-div1-bg.png");
+    background-position: center;
+    height: 400px;
+    background-repeat: no-repeat;
+}
+.s4-div2{
+    margin-top: 80px;
+}
+.s4-h1{
+    font-size: 29px;
+    color: white;
+}
+.s4-p{
+    color: white;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+
+.s5{
+    background-image: url("./images/s5-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 425px;
+    margin-top: 230px;
+    text-align: center;
+    color: white;
+}
+.s5-h1{
+    font-size: 51px;
+    padding-top: 100px;
+}
+.s5-p{
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 90px;
+}
+.footer-h1{
+    font-size: 16px;
+    line-height: 30px;
+    color: white;
+    margin-top: 25px;
+    font-weight: lighter;
+}
+.footer-span{
+    color: #9400FF;
+    cursor: pointer;
+    font-weight: lighter;
+}
+.footer-p{
+    font-size: 11px;
+    color: white;
+    margin-top: 30px;
+    font-weight: lighter;
+    padding-bottom: 80px;
+}
